@@ -182,8 +182,8 @@
         const map = new mapboxgl.Map({
             container: 'map',
             style: 'mapbox://styles/mapbox/navigation-day-v1',
-            center: [-121.872550, 37.327154],
-            zoom: 1
+            center: [-122.03577355168834,37.379641115044265],
+            zoom: 11
         });
         const bounds = [
             [-122.534918, 36.998834],
@@ -203,7 +203,7 @@
         // Function to add a marker at a specific point on the map
         // SET ALL INSTRUCTION INFO BELOW
         const instructions = [ 
-            { title: "Current time", info: "1:12 PM" }, 
+            { title: "Current time", info: "11:33 AM" }, 
             { title: "Address of origin", info: " " },
             { title: "Address of destination", info: " " },
             { title: "Distance of destination", info: " " },
@@ -228,9 +228,9 @@
                 destTime: ' Minutes',
 
                 waitTime: 'No Wait',
-                plugs: 'J-1772 (6)',
+                plugs: 'J-1772 (6) 6.48 kW',
                 chargeTime: ' Minutes',
-                socketAvalability: '4 Available, 2 In Use',
+                socketAvalability: '3 Available, 3 In Use',
 
                 energySource: 'Grid',
 
@@ -255,16 +255,16 @@
                 destTime: ' Minutes',
 
                 waitTime: 'No Wait',
-                plugs: 'J-1772 (3)',
+                plugs: 'J-1772 (3) 7 kW',
                 chargeTime: ' Minutes',
-                socketAvalability: '1 Available, 2 In Use',
+                socketAvalability: '2 Available, 1 In Use',
 
                 energySource: 'Grid',
 
-                fees: '$0.32/kw Charging',
+                fees: 'Payed Charging',
                 parking: 'Free Parking',
 
-                coffee: 'No',
+                coffee: 'Yes',
                 grocery: 'No',
                 sportsClothes: 'No',
                 
@@ -620,7 +620,7 @@
                         },
                         geometry: {
                             type: 'Point',
-                            coordinates: [ , ]
+                            coordinates: [-121.88121417175867,37.335067408604615]
                         }
                     }
                 ]
@@ -639,7 +639,7 @@
                         },
                         geometry: {
                             type: 'Point',
-                            coordinates: [ , ]
+                            coordinates: [-122.14836475181646,37.42251879634486]
                         }
                     }
                 ]
